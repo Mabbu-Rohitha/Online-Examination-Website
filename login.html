@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-body">
+
+    <div class="login-container">
+
+        <h1>Student Login</h1>
+        <p>Enter your details to begin the examination.</p>
+
+        <form id="loginForm">
+
+            <label>Student Name</label>
+            <input type="text" id="studentName"
+                   placeholder="Enter your name" required>
+
+            <label>Roll Number</label>
+            <input type="text" id="rollNumber"
+                   placeholder="Enter your roll number" required>
+
+            <button type="submit" class="primary-btn">
+                Login & Start Exam
+            </button>
+
+            <p id="loginMessage" class="error"></p>
+
+        </form>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

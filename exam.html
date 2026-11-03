@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Examination</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h2>ExamPortal</h2>
+        <span id="studentDetails">Student</span>
+    </header>
+
+    <main class="exam-container">
+
+        <div class="exam-header">
+            <div>
+                <h1>Online Examination</h1>
+                <p>Choose the correct answer for each question.</p>
+            </div>
+
+            <div class="timer-box">
+                <span>Time Remaining</span>
+                <h2 id="timer">10:00</h2>
+            </div>
+        </div>
+
+        <div class="progress-section">
+            <span id="questionNumber">Question 1 of 10</span>
+            <span id="answeredCount">0 Answered</span>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <section class="question-card">
+
+            <h2 id="questionText">Loading questions...</h2>
+
+            <div id="optionsContainer"></div>
+
+        </section>
+
+        <div class="exam-buttons">
+            <button id="previousBtn" class="secondary-btn">
+                Previous
+            </button>
+
+            <button id="nextBtn" class="primary-btn">
+                Next
+            </button>
+        </div>
+
+        <div class="submit-section">
+            <button id="submitBtn" class="submit-btn">
+                Submit Examination
+            </button>
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
